@@ -1,0 +1,55 @@
+/* eslint-disable prettier/prettier */
+const Courses = [
+    {
+        id: '1',
+        title: 'Computer Science',
+        image: require('../assets/branch/computer.jpg'),
+        description: 'Department of Computer Science & Engineering came into existence in year 2002 along with institute.',
+        Course1: 'ADA',
+        Course2: 'Data Strucher',
+        Course3: 'IOD',
+        price: 5000,
+    },
+    {
+        id: '2',
+        title: 'MECHANICAL ENGINEERING',
+        image: require('../assets/branch/mechnical.jpeg'),
+        description: 'Mechanical Engineering is one of the core branch of the Engineering with involvement of engineering professionals towards major activities in the global development',
+        Course1: 'Workshop Practice',
+        Course2: 'AUTOCAD',
+        Course3: 'Thermal',
+        price: 8000,
+    },
+    {
+        id: '3',
+        title: 'CIVIL ENGINEERING',
+        image: require('../assets/branch/civil.jpg'),
+        description: 'The Department of civil Engineering has begins in the year 2007. This department offering Undergraduate Program.',
+        Course1: 'Surveying',
+        Course2: 'Geology',
+        Course3: 'Structure',
+        price: 3000,
+    },
+    {
+        id: '4',
+        title: 'ELECTRICAL ENGINEERING',
+        image: require('../assets/branch/EC.jpg'),
+        description: 'Electrical engineering is a professional engineering discipline that generally deals with the study and application of electricity.',
+        Course1: 'Analog',
+        Course2: 'CAD & MATLAB',
+        Course3: 'PLC Lab',
+        price: 6000,
+    },
+    {
+        id: '5',
+        title: 'ELECTRONIC ENGINEERING',
+        image: require('../assets/branch/ex.jpg'),
+        description: 'Electronics and communication engineering is a dynamic and exciting area that provides excellent career opportunities in various areas of technology.',
+        Course1: 'IOT Lab',
+        Course2: 'VLSI Design',
+        Course3: 'Project Lab',
+        price: 10000,
+    },
+];
+
+export default Courses;
